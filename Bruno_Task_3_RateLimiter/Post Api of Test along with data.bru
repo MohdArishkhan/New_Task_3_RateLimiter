@@ -1,0 +1,20 @@
+meta {
+  name: Post Api of Test along with data
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/api/test
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {"name": "John", "message": "Hello World"}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

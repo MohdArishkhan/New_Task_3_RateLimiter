@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Task_3_RateLimiter",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
